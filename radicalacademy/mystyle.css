@@ -1,0 +1,41 @@
+body {
+    background-image: url('class3.jpg');
+    /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the last value for transparency */
+    min-height: 70vh;
+    /* Ensure background covers at least 70% of viewport height */
+}
+
+.header-title {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    /* Adjust as needed */
+    font-size: 36px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    /* Adjusted footer padding */
+    text-align: center;
+}
+
+.footer-icons {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.navbar-brand img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
